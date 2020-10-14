@@ -17,7 +17,7 @@
 /*if you are debugging the file must be in the project parent directory
   in this case Project2 with the .project and .cProject files*/
 bool openFile(std::fstream& myfile, const std::string& myFileName,
-		std::ios_base::openmode mode = std::ios_base::in);
+		std::ios_base::openmode mode = std::ios_base::out);
 
 /*iff myfile is open then close it*/
 void closeFile(std::fstream& myfile);
